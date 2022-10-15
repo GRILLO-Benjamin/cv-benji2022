@@ -1,29 +1,28 @@
-import React from "react"
-import Skill from "./Skill"
-import Interests from "./Interests"
-import "./Skills.css"
+import React from "react";
+import Skill from "./Skill";
+import Interests from "./Interests";
+import "./Skills.css";
 
-function Skills() 
-{
-    return (
+function Skills() {
+  return (
     <>
-    <div className="skills">
-        <h2 className="h2">Compétences</h2>
+      <div className="skills">
+        <h2 className="h2">Skills</h2>
         <Skill title="HTML" rating="4" />
         <Skill title="CSS" rating="4" />
         <Skill title="JAVASCRIPT" rating="3" />
-        <Skill title="REACT" rating="2" />
-        <Skill title="SYMFONY" rating="2" />
-    </div>
-    <div className="skills">
-        <h2 className="h2">Langues</h2>
-        <Skill title="Français" rating="5" />
-        <Skill title="Anglais" rating="5" />
-        <Skill title="Chinois" rating="3" />
-    </div>
-    <Interests />
+        <Skill title="REACT" rating="3" />
+        <Skill title="NODE" rating="2" />
+      </div>
+      <div className="skills">
+        <h2 className="h2">Languages</h2>
+        <Skill title="French" rating="5" />
+        <Skill title="English" rating="5" />
+        <Skill title="Chinese" rating="2" />
+      </div>
+      <Interests />
     </>
-    )
+  );
 }
 
-export default Skills
+export default Skills;

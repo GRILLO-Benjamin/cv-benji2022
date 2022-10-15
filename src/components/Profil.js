@@ -1,17 +1,18 @@
-import React from 'react'
-
+import React from "react";
 
 function Profil() {
   return (
-    <div className='profil mb5'>
-        <h2 className='h2'>Profil</h2>
-        <p>
-            Après plus de 15 ans dans la restauration et le management, j'ai décidé de changer de carrière et de me lancer dans le développement web.
-            Ma connaissance de l'international et de la création d'entreprise sont des avantages majeurs pour mon nouveau métier.
-            La mobilité, l'évolution constante et la résolution des problèmes sont pour moi les points forts du développement web.
-        </p>
+    <div className="profil mb5">
+      <h2 className="h2">Profile</h2>
+      <p>
+        After more than 15 years in catering and management, the COVID crisis
+        made me go back to France, where I decided to learn about Web
+        Development since the catering business was in declain. As the situation
+        seems to be returning to normal, I'm open to opportunities in both field
+        since I want to go back to Asia.
+      </p>
     </div>
-  )
+  );
 }
 
-export default Profil
+export default Profil;
